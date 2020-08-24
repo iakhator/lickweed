@@ -1,7 +1,7 @@
 <script>
 import Vue from 'vue';
-import { LickweedSample } from '@/entry';
-import { FccButton } from "@/entry";
+// import { LickweedSample } from '@/entry';
+import { Spinner } from "@/entry";
 
 export default Vue.extend({
   name: 'ServeDev',
@@ -11,15 +11,15 @@ export default Vue.extend({
     }
   },
   components: {
-    LickweedSample,
-    FccButton
+    // LickweedSample,
+    Spinner
   }
 });
 </script>
 
 <template>
   <div id="app">
-    <FccButton text="Lickweed" />
-    <lickweed-sample :goto="goto" />
+    <Spinner />
+    <!-- <lickweed-sample :goto="goto" /> -->
   </div>
 </template>
