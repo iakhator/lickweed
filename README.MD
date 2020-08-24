@@ -1,4 +1,4 @@
-# Vue Spinner Component
+# Utility Vue Component Library: Spinner
 
 ## Usage
 
