@@ -1,6 +1,6 @@
 {
   "name": "lickweed",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/lickweed.ssr.js",
   "browser": "dist/lickweed.esm.js",
