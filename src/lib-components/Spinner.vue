@@ -88,8 +88,6 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   border-radius: 50%;
-  // width: 30px;
-  // height: 30px;
 }
 @keyframes forward {
   0% {
