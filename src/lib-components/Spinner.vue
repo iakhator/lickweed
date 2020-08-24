@@ -58,7 +58,7 @@
           borderLeftColor: this.color,
           width: this.spinnerSize,
           height: this.spinnerSize,
-          borderWidth: this.spinnerDepth,
+          // borderWidth: this.spinnerDepth,
           animationName: this.rotationDirection,
           animationDuration: this.spinnerSpeed
         }
@@ -88,8 +88,8 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  // width: 30px;
+  // height: 30px;
 }
 @keyframes forward {
   0% {
